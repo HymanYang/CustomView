@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YJMoneyView">
+        <attr name="preText" format="string"/>
+        <attr name="preTextSize" format="dimension"/>
+        <attr name="preTextColor" format="color"/>
+
+        <attr name="moneyText" format="string"/>
+        <attr name="moneyTextColor" format="color"/>
+        <attr name="moneyTextSize" format="dimension"/>
+
+        <attr name="ponitTextSize" format="dimension"/>
+
+        <attr name="unitTextColor" format="color"/>
+        <attr name="unitTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
