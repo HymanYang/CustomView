@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
@@ -204,7 +205,7 @@ public class YJMoneyView extends View {
 
 	@Override
 	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-		// super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+		//super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
 		int width = 0;
 		int height = 0;
@@ -247,6 +248,8 @@ public class YJMoneyView extends View {
 //			height = Math.max(100,specSize);
 			break;
 		}
+
+		Log.e("yangzhou","w=" + width + ";height=" + height);
 
 		setMeasuredDimension(width, height);
 

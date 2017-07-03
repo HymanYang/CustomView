@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
         moneyView = (YJMoneyView) findViewById(R.id.special_items_money2);
 
-        moneyView.setText(123.34d);
+        moneyView.setText(1973.38d);
     }
 }
